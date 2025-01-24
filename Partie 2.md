@@ -1,4 +1,4 @@
-## Partie : Documentation technique
+## Partie 2 : Documentation technique
 
 ## Contenus
 
