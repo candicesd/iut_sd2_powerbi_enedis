@@ -39,4 +39,6 @@ Les slicers hiérarchiques augmentaient aussi le temps de réponse lorsqu’ils 
 Nous avons modifié les relations entre tables pour passer d’un modèle "plusieurs à plusieurs" à des relations "un à plusieurs" dans la mesure du possible. Cela a permis de réduire les temps de calcul.
 Nous avons aussi simplifié les mesures DAX en évitant les calculs inutiles ou redondants.
 
-**Résultat de l'analyseur de performance :** Analyseur de performance.json
+**Résultat de l'analyseur de performance :** 
+
+https://github.com/candicesd/iut_sd2_powerbi_enedis/blob/bac6daa75b9c07f60389e09b81d63e2940c5046e/Analyseur%20de%20performance.json
