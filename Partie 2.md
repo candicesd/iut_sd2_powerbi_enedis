@@ -20,5 +20,6 @@ LEFT([code_postal], 2) = "69"
 ```
 Ainsi, un utilisateur attribué à ce rôle ne verra que les données concernant ce département.
 Ces règles permettent une sécurisation des données et une personnalisation des vues, en conformité avec les besoins d’un environnement multi-utilisateurs.
+
 Notre rapport est basé seulement sur les logements du Rhône donc actuellement, quelqu'un qui a le rôle **responsable département** peut avoir accès à toutes les données mais nous avons quand même trouvé important dans mettre ce rôle dans le cas où le rapport serais amené à évoluer en rajoutant des données sur d'autres département par exemple.
 
