@@ -1,7 +1,7 @@
 # IUT_SD2
 
 Ce document `README.md` va présenter le contenu de ce référentiel Git.
-Ce documet est écrit dans le cadre d'un projet qui a pour but d'évaluer l'impact de la classe de Diagnostic de performance Energétique (DPE) sur les consommations électriques des logements du départements 69.
+Ce documet est écrit dans le cadre d'un projet qui a pour but d’établir un état des lieux de la performance énergétique des logements du départements 69.
 
 ## Livrables attendus 
 
