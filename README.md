@@ -5,16 +5,15 @@ Ce documet est écrit dans le cadre d'un projet qui a pour but d'évaluer l'impa
 
 ## Livrables attendus 
 
-- [x] Rapport d'étude RMarkdown
-- [x] Application déployée sur shinyapp.io
+- [x] Maquette Powerbi
+- [x] Application publiée sur PowerBi Online
 - [x] Repository GitHub complet
 - [x] Captation vidéo de l'application
 
 ## Planning
 
-1. Partie 1 : Boucle de récuparation des données de l'API
-2. Partie 2 : Rapport d'étude RMarkdown
-3. Partie 3 : Application RShiny
-4. Partie 4 : Documentation technique
-5. Partie 5 : Documentation fonctionnelle
-6. Partie 6 : lien youtube : https://youtu.be/ppchq4ybTsQ
+1. Partie 1 : Maquette de l’application
+2. Partie 2 : Documentation technique
+3. Partie 3 : Documentation fonctionnelle
+4. Partie 4 : lien youtube : https://youtu.be/ppchq4ybTsQ
+
