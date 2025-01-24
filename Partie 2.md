@@ -23,3 +23,18 @@ Ces règles permettent une sécurisation des données et une personnalisation de
 
 Notre rapport est basé seulement sur les logements du Rhône donc actuellement, quelqu'un qui a le rôle **responsable département** peut avoir accès à toutes les données mais nous avons quand même trouvé important dans mettre ce rôle dans le cas où le rapport serais amené à évoluer en rajoutant des données sur d'autres département par exemple.
 
+## Diagnostique de l’analyseur de performance du rapport
+
+Nous avons utilisé l’Analyseur de performances dans Power BI pour évaluer le comportement du rapport et identifier d’éventuelles optimisations nécessaires. Les résultats principaux sont les suivants :
+
+**Temps de chargement des visuels :**
+
+Les visuels de type "Carte" et "Graphiques en barres empilées" bien que très interactifs, présentaient un temps de chargement moyen supérieur aux autres en raison de la complexité des relations entre les tables de données.
+Les visuels utilisant des mesures DAX complexes, comme le calcul des coûts ou des consommations par mètre carré, ont légèrement augmenté les temps de chargement.
+
+Les slicers hiérarchiques augmentaient aussi le temps de réponse lorsqu’ils étaient appliqués sur un grand nombre de données. Nous avons fait quelques ajustements pour limiter leur impact, notamment en filtrant les données inutiles avant leur utilisation dans les visuels.
+
+**Optimisations réalisées :**
+
+Nous avons modifié les relations entre tables pour passer d’un modèle "plusieurs à plusieurs" à des relations "un à plusieurs" dans la mesure du possible. Cela a permis de réduire les temps de calcul.
+Nous avons aussi simplifié les mesures DAX en évitant les calculs inutiles ou redondants.
