@@ -12,7 +12,7 @@ Ce documet est écrit dans le cadre d'un projet qui a pour but d’établir un �
 
 ## Planning
 
-1. Partie 1 : Maquette de l’application
+1. Partie 1 : Maquette de l’application : https://www.canva.com/design/DAGdHNfwiTs/aTYarZk_kKix_1K-6CSK5g/view?utm_content=DAGdHNfwiTs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h0672b8667d
 2. Partie 2 : Documentation technique
 3. Partie 3 : Documentation fonctionnelle
 4. Partie 4 : lien youtube : https://youtu.be/ppchq4ybTsQ
