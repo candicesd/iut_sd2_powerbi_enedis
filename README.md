@@ -16,4 +16,5 @@ Ce documet est écrit dans le cadre d'un projet qui a pour but d’établir un �
 2. Partie 2 : Documentation technique
 3. Partie 3 : Documentation fonctionnelle
 4. Partie 4 : lien youtube : [https://youtu.be/ppchq4ybTsQ](https://youtu.be/uJ2gKzlXASw)
+5. Partie 5 : Lien de l'application publiée sur Power BI : https://app.powerbi.com/links/2UrgGBBBWl?ctid=a51a6642-5911-4306-a13c-f4731ab9c63f&pbi_source=linkShare
 
