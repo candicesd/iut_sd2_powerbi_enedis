@@ -25,6 +25,7 @@ Nous avons aussi ajouté un bandeau de navigation en haut de chaque page qui per
 
 Sur toutes les pages nous avons également ajouté des filtres qui permettent de filtrer les données comme l'utilisateur le souhaite sur différents facteurs comme l'étiquette DPE, la commune, le type de bâtiments ou encore le type de logement.
 Ces filtres garantissent une expérience personnalisée pour l’utilisateur et une analyse précise.
+
 De plus, tout le contenus de notre application est intéractif, c'est à dire que l'utilisateur peut cliquer sur un élément d'un graphique et toute la page va se mettre à jour en conséquence (exemple : l'utilisateur clique sur la partie "ancien" d'un graphique en anneau qui représente les coûts moyen par type de logement, alors toute la page va automatiquement représenter seulement les logements anciens. 
 
 Au niveau des rôles de sécurité, nous avons ajouté deux rôles différents, le rôle admin qui permet un accès complet aux données et le rôle responsable département qui a seulement un accès sur les données du Rhône (bien que pour le moment notre application ne contient que les données du Rhône, nous avons tout de même tenu à ajouter ce rôle dans le cas d'évolution de l'application comme l'ajout de données d'autre départment par exemple).
