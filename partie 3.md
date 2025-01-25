@@ -1,43 +1,29 @@
+## Partie 3 : Documentation fonctionnelle
+
+## Contenus
+
+- [x] Intérêt des visualisations de l’application
+- [x] Fonctionnalités majeures de l’application
+
+## Intérêt des visualisations de l’application
+
+Nous avons conçu notre application afin de fournir une analyse approfondie des données liées à la performance énergétique des logements dans le département du Rhône (69). Nous avons essayé de répondre aux besoins des utilisateurs en leur offrant une meilleure compréhension des données et des résultats.
+
+# Description des données :
+
+Notre appli4cation comporte 5 pages, une première page de contexte qui rappelle le sujet et qui permet d'avoir une vue sur les différentes page de l'application. La deuxième page présente les données principales, les indicateurs clés, comme le nombre total de logements par exemple et leur répartition par étiquette DPE. Notre troisième page présente la répartition des données afin d'avoir une idée de la tendance du jeu de données. La quatrième page permet l'analyse des données avec des chiffres clés et des graphiques qui permettent de déterminer quels facteurs influent sur la consommation énergétique. Enfin, le dernière page permet la comparaison de deux villes au choix.
 
 
+## Fonctionnalités majeures de l’application
 
+L’application propose plusieurs fonctionnalités pour rendre la navigation et l’analyse efficaces et pratique.
+En effet, nous avons mis des boutons interactifs sur la page d’accueil qui permettent d'une part de connaître ce que contiennent les pages de l'application et d'autre part, qui permettent de naviguer rapidement vers chacune de ces sections.
+Nous avons aussi ajouté un bandeau de navigation en haut de chaque page qui permet d'aller directement sur la page que l'on souhaite et qui permet aussi de savoir sur quelle page on se trouve.
 
-
-
-
-1. Intérêt des visualisations clés de l’application
-L’application Power BI a été conçue pour fournir une analyse approfondie et intuitive des données liées à la performance énergétique des logements dans le département du Rhône (69). Les visualisations clés répondent aux besoins des utilisateurs en leur offrant une meilleure compréhension des données et des résultats. Voici un aperçu des principales visualisations :
-
-Description des données :
-Une première page, sous forme de synthèse, présente les données principales de manière accessible. Les indicateurs clés, comme le nombre total de logements et leur répartition par étiquette DPE, permettent de cerner rapidement l’état global des performances énergétiques.
-Intérêt : Fournir une vue d’ensemble pour identifier les tendances générales.
-
-Analyse des coûts et consommations :
-Une seconde page explore les coûts énergétiques et les consommations selon divers facteurs (type de logement, ancienneté, etc.). Des graphiques comparatifs permettent de repérer les postes énergétiques les plus coûteux et d’identifier des marges d’amélioration.
-Intérêt : Offrir des informations exploitables pour prioriser les actions d’amélioration énergétique.
-
-Comparaison de deux villes :
-Une troisième page permet aux utilisateurs de sélectionner et comparer deux villes du Rhône. Cela inclut des données détaillées sur la consommation et les coûts par logement.
-Intérêt : Faciliter la prise de décision en mettant en évidence les différences locales.
-
-2. Fonctionnalités majeures de l’application
-L’application propose plusieurs fonctionnalités pour rendre la navigation et l’analyse efficaces :
-
-Navigation simplifiée :
-
-Des boutons interactifs sur la page d’accueil permettent de naviguer rapidement vers chaque section du rapport (Description des données, Analyse des coûts, Comparaison des villes).
-Un bandeau de navigation en haut de chaque page offre un accès constant à l’ensemble des sections.
-Filtres avancés (Slicers) :
-
-Des slicers hiérarchiques permettent de filtrer les données selon différents critères comme le type de logement (maison/appartement), l’ancienneté (neuf/ancien), ou encore l’étiquette DPE.
+Sur toutes les pages nous avons également ajouté des filtres qui permettent de filtrer les données comme l'utilisateur le souhaite sur différents facteurs comme l'étiquette DPE, la commune, le type de bâtiments ou encore le type de logement.
 Ces filtres garantissent une expérience personnalisée pour l’utilisateur et une analyse précise.
-Rôles de sécurité :
+De plus, tout le contenus de notre application est intéractif, c'est à dire que l'utilisateur peut cliquer sur un élément d'un graphique et toute la page va se mettre à jour en conséquence (exemple : l'utilisateur clique sur la partie "ancien" d'un graphique en anneau qui représente les coûts moyen par type de logement, alors toute la page va automatiquement représenter seulement les logements anciens. 
 
-Des rôles RLS (Row-Level Security) ont été implémentés pour garantir un accès restreint aux données. Par exemple, un rôle de "Responsable Région" limite l’accès aux données spécifiques au département 69. Cela renforce la confidentialité des informations sensibles.
-Interactivité des visualisations :
+Au niveau des rôles de sécurité, nous avons ajouté deux rôles différents, le rôle admin qui permet un accès complet aux données et le rôle responsable département qui a seulement un accès sur les données du Rhône (bien que pour le moment notre application ne contient que les données du Rhône, nous avons tout de même tenu à ajouter ce rôle dans le cas d'évolution de l'application comme l'ajout de données d'autre départment par exemple).
 
-Tous les graphiques et tableaux sont interactifs. L’utilisateur peut cliquer sur un élément pour filtrer automatiquement les données correspondantes sur les autres visualisations de la page.
-Charte graphique professionnelle :
-
-L’application utilise un design épuré avec des couleurs claires et une hiérarchie visuelle bien définie, ce qui améliore la lisibilité et attire l’attention sur les éléments essentiels.
-
+Enfin, au niveau de la charte graphique et du design, nous avons choisis quelque chose d'à la fois simple, mais qui respecte les couleurs du thème, à savoir les couleurs du logo d'Enedis et les couleurs des différentes étiquettes DPE.
