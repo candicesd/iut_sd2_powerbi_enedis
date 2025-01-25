@@ -9,10 +9,13 @@
 
 Nous avons conçu notre application afin de fournir une analyse approfondie des données liées à la performance énergétique des logements dans le département du Rhône (69). Nous avons essayé de répondre aux besoins des utilisateurs en leur offrant une meilleure compréhension des données et des résultats.
 
-# Description des données :
+### Description des données :
 
-Notre appli4cation comporte 5 pages, une première page de contexte qui rappelle le sujet et qui permet d'avoir une vue sur les différentes page de l'application. La deuxième page présente les données principales, les indicateurs clés, comme le nombre total de logements par exemple et leur répartition par étiquette DPE. Notre troisième page présente la répartition des données afin d'avoir une idée de la tendance du jeu de données. La quatrième page permet l'analyse des données avec des chiffres clés et des graphiques qui permettent de déterminer quels facteurs influent sur la consommation énergétique. Enfin, le dernière page permet la comparaison de deux villes au choix.
+Notre application comporte 5 pages, une première page de contexte qui rappelle le sujet et qui permet d'avoir une vue sur les différentes page de l'application. La deuxième page présente les données principales, les indicateurs clés, comme le nombre total de logements par exemple et leur répartition par étiquette DPE. Notre troisième page présente la répartition des données afin d'avoir une idée de la tendance du jeu de données. La quatrième page permet l'analyse des données avec des chiffres clés et des graphiques qui permettent de déterminer quels facteurs influent sur la consommation énergétique. Enfin, le dernière page permet la comparaison de deux villes au choix.
 
+### Description des visualisations
+
+Les différents type de visualisations que nous avons mis dans cette application ont été réfléchis au préalable. Nous avons d'une part essayer de varier au maximum pour éviter d'avoir toujours les mêmes visualisations et d'autre part, pour chaque données à représenter nous avons choisi la meilleur manière selon nous de les représenter pour que ce soit à la fois esthétique et compréhensible. 
 
 ## Fonctionnalités majeures de l’application
 
