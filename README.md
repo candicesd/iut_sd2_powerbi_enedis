@@ -17,4 +17,5 @@ Ce documet est écrit dans le cadre d'un projet qui a pour but d’établir un �
 3. Partie 3 : Documentation fonctionnelle
 4. Partie 4 : lien youtube : [https://youtu.be/ppchq4ybTsQ](https://youtu.be/uJ2gKzlXASw)
 5. Partie 5 : Lien de l'application publiée sur Power BI : https://app.powerbi.com/links/2UrgGBBBWl?ctid=a51a6642-5911-4306-a13c-f4731ab9c63f&pbi_source=linkShare
+6. Partie 6 : Accès au fichier pbix ainsi qu'aux jeu de données utilisé : https://drive.google.com/file/d/17kKpmxa50_QDMcrrlQefNme6CCvNZ4xR/view?usp=sharing (le dossier étant trop gros voici le lien du zip placé dans Google Drive contenant tous les fichiers)
 
